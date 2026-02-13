@@ -111,3 +111,5 @@ nohup node server.js > server.log 2>&1 &
 - **Node.js + Express** – Backend API service.
 - **WebSocket** – Real-time dashboard updates.
 - **HTML / CSS / JS** – Frontend dashboard.
+
+**Live thing here** : http://157.173.101.159:9280/
