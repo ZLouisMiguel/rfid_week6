@@ -5,12 +5,21 @@
 <title>RFID Dashboard</title>
 <style>
   body { font-family: Arial; padding: 20px; }
-  table { border-collapse: collapse; width: 50%; }
+  table { border-collapse: collapse; width: 50%; margin-top: 20px; }
   th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+  input, button { padding: 5px 10px; margin: 5px; }
 </style>
 </head>
 <body>
 <h2>RFID Dashboard</h2>
+
+<!-- Top-up Form -->
+<div>
+  <input type="text" id="uidInput" placeholder="Card UID">
+  <input type="number" id="amountInput" placeholder="Amount">
+  <button id="topupBtn">Top-up</button>
+</div>
+
 <table>
   <thead>
     <tr>
